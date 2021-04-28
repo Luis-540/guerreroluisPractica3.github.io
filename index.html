@@ -75,7 +75,7 @@
 
     function verif(form)
     {   if (form.contraseña.value==form.contraseña2.value) 
-    { alert('Las contraseñas coinciden'); return true }
+    { alert('Ya estas registrado, Bienvenido'); return true }
         else 
     { alert('Las dos contraseñas no coinciden'); return false }
     }
@@ -96,6 +96,14 @@ window.onload = function() {
 }
     </script>
 
+   <script language="JavaScript" type="text/JavaScript">
+var result=window.confirm('Aceptas los terminos?');
+if(result===true){
+ window.alert('Aceptaste los terminos')
+}
+else{
+window.alert('No Aceptaste los terminos')}
+</script>
 
 
 
